@@ -165,7 +165,6 @@ pypdfium2==4.30.1
 PyPika==0.48.9
 PyPrind==2.11.3
 pyproject_hooks==1.2.0
-pyreadline3==3.5.4
 pysbd==0.3.4
 pyshark==0.6
 pysut==1.1
@@ -179,7 +178,6 @@ python-socketio==5.16.1
 pytube==15.0.0
 pytz==2024.2
 pyvis==0.3.2
-pywin32==310
 PyYAML==6.0.2
 referencing==0.36.2
 regex==2026.1.15
