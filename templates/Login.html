@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/Estilos.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <main>
+        <div class="buscar-chat">
+            <div class="texto">
+                <h1>Login</h1>
+            </div>
+            <div class="login">
+                <input type="text" id="nome-usuario" placeholder="Digite seu nome de usuário"><br>
+                <input type="email" id="email" placeholder="Digite seu email"><br>
+                <input type="password" id="senha" placeholder="Digite sua senha"><br>
+                <button class="botao-logar" id="botao-logar"
+                onkey="handleKeyPressLogin(event)" onclick="entrar_no_chat()">
+                    Entrar
+                </button><br>
+                <label>
+                    Se você ainda não tem uma conta, clique aqui para se cadastrar.
+                </label>
+                <button class="botao-cadastrar" id="botao-cadastrar" onclick="window.location.href='/cadastro'">
+                    Cadastrar
+                </button>
+            </div>
+        </div>
+    </main> 
+    <script src="/static/Clientes.js"></script>
+</body>
+</html>
